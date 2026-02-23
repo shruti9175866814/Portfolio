@@ -50,7 +50,7 @@ const Education = () => {
               <br />
               Konkan Board  
               <br />
-              <span className="font-semibold">Percentage: 80.70%</span>
+              <span className="font-semibold"></span>
             </p>
           </div>
 
@@ -79,7 +79,7 @@ const Education = () => {
               <br />
               Konkan Board  
               <br />
-              <span className="font-semibold">Percentage: 62.80%</span>
+              <span className="font-semibold"></span>
             </p>
           </div>
         </div>
