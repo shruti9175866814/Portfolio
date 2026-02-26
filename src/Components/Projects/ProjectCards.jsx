@@ -1,24 +1,40 @@
 import React from 'react'
-import bannerImg from "../../assets/photo-C8q0KQHG.webp";
+import bannerImg from "../../assets/food.png";
 
 const ProjectCards = ({title,main}) => {
   return (
-    <div className='p-3 md:p-6 flex flex-col min-w-[320px] bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl'>
-      <img  className='p-4' src={bannerImg} alt=""></img>
+  <div className="bg-[#0c0e19] p-6 rounded-2xl shadow-xl w-80 mx-auto">
+      
+  <img
+    className="w-full h-40 object-cover "
+    src={bannerImg}
+    alt="project"
+  />
+
       <h3 className='px-4 text-xl md:text-2xl font-bold leading-normal'>
         {title}
       </h3>
       <p className='px-4 text-sm md:text-md leading-tight py-2'>{main}</p>
       <div className='mt-2 p-2 md:p-4 flex gap-2 md:gap-4'>
-        <button className='md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85
-        duration-300 hover:scale-105 font semibold rounded-3xl bg-[#465697]'>
-            Demo
-        </button>
+        <a 
+          href="https://shruti-food-delivery-website.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85
+          duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'
+        >
+  Demo
+</a>
 
-        <button className='md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85
-        duration-300 hover:scale-105 font semibold rounded-3xl bg-[#465697]'>
-            Source Code
-        </button>
+        <a 
+          href="https://github.com/shruti9175866814/Food_delivery_website"
+          target="_blank"
+          rel="noopener noreferrer"
+          className='md:mt-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85
+          duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]'
+        >
+  Source Code
+</a>
       </div>
     </div>
   )

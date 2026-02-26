@@ -9,16 +9,11 @@ const Projects = () => {
 
  
             <ProjectCards 
-            title="Blogging Website" 
-            main="This is the blogging website craeted in next js and used some component library"/>
+  title="Food Delivery Website" 
+  main="This is a responsive food delivery website built using React and Tailwind CSS. It includes categories, menu filtering, and modern UI design."
+/>
 
-            <ProjectCards 
-            title="youTube Clone" 
-            main="This is the blogging website craeted in next js and used some component library"/>
-
-            <ProjectCards 
-            title="Netflix Clone" 
-            main="This is the blogging website craeted in next js and used some component library"/>
+            
             
         </div>
       
