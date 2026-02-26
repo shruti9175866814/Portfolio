@@ -18,7 +18,7 @@ const Navbar = () => {
 
       <ul className={`flex gap-8 font-medium ${menu ? "block absolute top-16 left-0 w-full bg-[#0f1b3d] p-4 md:static md:flex md:w-auto md:bg-transparent" : "hidden md:flex"}`}>
   <a href="#About"><li className="cursor-pointer hover:text-blue-400 py-2 md:py-0">About</li></a>
-  <a href="#Experience"><li className="cursor-pointer hover:text-blue-400 py-2 md:py-0">Experience</li></a>
+  <a href="#Education"><li className="cursor-pointer hover:text-blue-400 py-2 md:py-0">Education</li></a>
   <a href="#Projects"><li className="cursor-pointer hover:text-blue-400 py-2 md:py-0">Projects</li></a>
   <a href="#Footer"><li className="cursor-pointer hover:text-blue-400 py-2 md:py-0">Contact</li></a>
 </ul>
